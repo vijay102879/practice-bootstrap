@@ -14,19 +14,23 @@
 </head>
 
 <body>
-    <nav class=" navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+    <nav class=" navbar navbar-dark navbar-expand-sm fixed-top">
         
         <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <a class="navbar-brand" href="#"> Ristron con fusion </a> 
-            <ul class="navbar-nav mr-auto">
-                <li class="item-list active "><a class="nav-link" href="#">home</a></li>
-                <li class="item-list "><a class="nav-link" href="aboutus.html">about</a></li>
-                <li class="item-list "><a class="nav-link" href="#">menu</a></li>
-                <li class="item-list "><a class="nav-link" href="#">contact</a></li>
-                
-
-            </ul>
-
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="item-list active "><a class="nav-link" href="#">home</a></li>
+                    <li class="item-list "><a class="nav-link" href="aboutus.html">about</a></li>
+                    <li class="item-list "><a class="nav-link" href="#">menu</a></li>
+                    <li class="item-list "><a class="nav-link" href="#">contact</a></li>
+                </ul>
+    
+            </div>
+           
         </div>
 
     </nav>
@@ -85,7 +89,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
